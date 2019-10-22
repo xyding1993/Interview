@@ -8,9 +8,9 @@
 </details>
 
 <b><details><summary>2.标准模型+IE模型</summary></b>
+```
 在标准模式下的盒模型，盒子实际内容（content）的width/height=我们设置的width/height;盒子总宽度/高度=width/height+padding+border+margin  
 在怪异模式下的盒模型，盒子实际内容（content）的width/height+内边距padding+边框border宽度=我们设置的width/height，盒子总宽度/高度=width/height + margin = 内容区宽度/高度 + padding + border + margin
-```
 ```
 </details>
 
@@ -25,6 +25,16 @@ inherit
 
 <b><details><summary>4.JS如何获取盒模型的高宽</summary></b>
 ```
+1.dom.style.width/height   
+这种方法只能获取使用内联样式的元素的宽和高。 
+也就是说如果该节点的样式是在style标签中或是外部的CSS样式表中的话，通过这种方法是没办法获取dom的宽高的。 
+2.dom.currentStyle.width/height   
+这种方法获取的是浏览器渲染以后的元素的宽和高，无论是用何种方式引入的css样式都可以，但只有IE浏览器支持这种写法。  
+无论以哪种方式，内联也好，style标签中也好，都可以获取的到。但是这种方法只能在IE浏览器中使用
+3.window.getComputedStyle(dom).width/height   
+这种方法获取的也是浏览器渲染以后的元素的宽和高，但这种写法兼容性更好一些。  
+4.dom.getBoundingClientRect().width/height  
+这种方法经常使用的场所是，计算一个元素的绝对位置（相对于视窗左上角），它能拿到元素的left、top、width、height 4个属性。
 ```
 </details>
 

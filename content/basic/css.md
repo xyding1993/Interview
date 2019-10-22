@@ -40,10 +40,30 @@ inherit
 
 <b><details><summary>5.根据盒模型解释边距重叠</summary></b>
 ```
+边界重叠是指两个或多个盒子(可能相邻也可能嵌套)的相邻边界(其间没有任何非空内容、补白、边框)重合在一起而形成一个单一边界。
+两个或多个块级盒子的垂直相邻边界会重合，它们的边界宽度是相邻边界宽度中的最大值。注意水平边界是不会重合的
 ```
 </details>
 
 <b><details><summary>6.BFC</summary></b>
 ```
+概念：块级格式化上下文
+
+BFC的原理（BFC的渲染规则）：
+在BFC这个元素垂直方向的边距会发生重叠；
+BC的区域不会与浮动元素的box重叠（用来清除浮动和做布局）；
+BC在页面上是一个独立的容器，其里外的元素不会互相影响；
+计算BFC高度的时候，浮动元素也会参与计算；
+
+创建BFC的方法:
+1.float值不为none
+2.position值不为static和absolute
+3.display属性为table/table-cell等与table相关的值
+4.overflow值不为visible
+
+BFC的使用场景：
+1.BFC垂直方向边距重叠的问题；
+2.BFC不与float重叠；
+3.清除浮动
 ```
 </details>

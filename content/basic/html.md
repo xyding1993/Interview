@@ -63,6 +63,51 @@ HTML5 是跨平台的，被设计为在不同类型的硬件（PC、平板、手
 
 <b><details><summary>HTML5有哪些新特性、移除了哪些元素？</summary></b>
 ```  
+新的语义/结构元素
+
+
+新的表单元素
+
+新的输入类型
+color
+date
+datetime
+datetime-local
+email
+month
+number
+range
+search
+tel
+time
+url
+week
+
+新的输入属性
+autocomplete
+autofocus
+form
+formaction
+formenctype
+formmethod
+formnovalidate
+formtarget
+height 和 width
+list
+min 和 max
+multiple
+pattern (regexp)
+placeholder
+required
+step
+
+HTML5 - 新的属性语法
+
+HTML5 图像
+
+新的媒介元素
+
+
 ```
 </details>
 

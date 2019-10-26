@@ -46,6 +46,47 @@
 ```
 </details>
 
+<b><details><summary>6.<script>在HTML文档中位置</summary></b>
+```
+https://www.jianshu.com/p/610743ddb6fe
+```
+</details>
+
+<b><details><summary>7.HTML 本地存储</summary></b>
+```
+通过本地存储（Local Storage），web 应用程序能够在用户浏览器中对数据进行本地的存储。
+在 HTML5 之前，应用程序数据只能存储在 cookie 中，包括每个服务器请求。本地存储则更安全，并且可在不影响网站性能的前提下将大量数据存储于本地。
+与 cookie 不同，存储限制要大得多（至少5MB），并且信息不会被传输到服务器。
+本地存储经由起源地（origin）（经由域和协议）。所有页面，从起源地，能够存储和访问相同的数据。
+```
+</details>
+
+<b><details><summary>8.HTML5 应用程序缓存</summary></b>
+```
+使用应用程序缓存，通过创建 cache manifest 文件，可轻松创建 web 应用的离线版本。
+
+HTML5 引入了应用程序缓存（Application Cache），这意味着可对 web 应用进行缓存，并可在没有因特网连接时进行访问。
+应用程序缓存为应用带来三个优势：
+离线浏览 - 用户可在应用离线时使用它们
+速度 - 已缓存资源加载得更快
+减少服务器负载 - 浏览器将只从服务器下载更新过或更改过的资源
+
+更新缓存
+一旦应用被缓存，它就会保持缓存直到发生下列情况：
+用户清空浏览器缓存
+manifest 文件被修改（参阅下面的提示）
+由程序来更新应用缓存
+```
+</details>
+
+<b><details><summary>9.XHTML 3中DTD</summary></b>
+```
+STRICT（严格类型）
+TRANSITIONAL（过渡类型）
+FRAMESET（框架类型）
+```
+</details>
+
 
 ### HTML5
 
@@ -116,6 +157,25 @@ HTML5 图像
 UTF-8
 ```
 </details>
+
+<b><details><summary>Canvas 与 SVG 的比较</summary></b>
+```  
+Canvas
+依赖分辨率
+不支持事件处理器
+弱的文本渲染能力
+能够以 .png 或 .jpg 格式保存结果图像
+最适合图像密集型的游戏，其中的许多对象会被频繁重绘
+SVG
+不依赖分辨率
+支持事件处理器
+最适合带有大型渲染区域的应用程序（比如谷歌地图）
+复杂度高会减慢渲染速度（任何过度使用 DOM 的应用都不快）
+不适合游戏应用
+```
+</details>
+
+
 
 
 ### 浏览器

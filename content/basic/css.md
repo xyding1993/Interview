@@ -67,3 +67,27 @@ BFC的使用场景：
 3.清除浮动
 ```
 </details>
+
+<b><details><summary>7.隐藏元素的几种方式</summary></b>
+```
+visiblity visiblity:hidden
+display display:none
+opacity opacity:0
+position position: absolute;left: -200px;
+```
+</details>
+
+<b><details><summary>8.伪元素伪类</summary></b>
+```
+伪元素使用2个冒号，常见的有：::before，::after，::first-line，::first-letter，::selection、::placeholder等；
+伪类使用1个冒号，常见的有：:hover，:link，:active，:target，:not()，:focus等
+
+区别：
+伪元素添加了一个页面中没有的元素（只是从视觉效果上添加了，不是在文档树中添加），伪类是给页面中已经存在的元素添加一个类。
+
+CSS3中的伪元素
+CSS2 中的伪元素使用1个冒号，在 CSS3 中，为了区分伪类和伪元素，规定伪元素使用2个冒号。
+如果不需要考虑IE8以下的浏览器，建议都使用2个冒号的新标准写法来写。否则还是使用1个冒号。
+
+```
+</details>

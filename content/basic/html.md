@@ -87,6 +87,13 @@ FRAMESET（框架类型）
 ```
 </details>
 
+<b><details><summary>10.表单提交中Get和Post方式的区别？</summary></b>
+```
+```
+</details>
+
+
+
 
 ### HTML5
 
@@ -108,6 +115,9 @@ HTML5 是跨平台的，被设计为在不同类型的硬件（PC、平板、手
 
 
 新的表单元素
+datalist
+keygen
+output
 
 新的输入类型
 color
@@ -152,14 +162,19 @@ HTML5 图像
 ```
 </details>
 
-<b><details><summary>HTML5 中默认的字符编码？</summary></b>
+<b><details><summary>新的 HTML5 文档类型和字符集是？</summary></b>
 ```  
+<!DOCTYPE html>
 UTF-8
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 ```
-</details>
+</details>  
 
-<b><details><summary>Canvas 与 SVG 的比较</summary></b>
+<b><details><summary>HTML5 Canvas 元素有什么用？Canvas 与 SVG 的比较</summary></b>
 ```  
+Canvas 元素用于在网页上绘制图形，该元素标签强大之处在于可以直接在 HTML 上进行图形操作
+
 Canvas
 依赖分辨率
 不支持事件处理器
@@ -174,6 +189,23 @@ SVG
 不适合游戏应用
 ```
 </details>
+
+<b><details><summary>HTML5媒体标签</summary></b>
+```  
+embed/audio/video
+```
+</details>
+
+<b><details><summary>HTML5 废弃了哪些 HTML4 标签？</summary></b>
+```  
+```
+</details>
+
+<b><details><summary>HTML5 标准提供了哪些新的 API？</summary></b>
+```  
+```
+</details>
+
 
 
 

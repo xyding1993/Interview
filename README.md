@@ -1,17 +1,8 @@
-# 目录
+# 前端知识点
+记录前端重要知识点
 
-<b><details><summary>CSS</summary></b>
-  - [详情](./content/basic/css.md)
-  </details>
+## ✨ 目录
 
-<b><details><summary>HTML</summary></b>
-  - [详情](./content/basic/html.md)
-  </details>
-
-<b><details><summary>Http</summary></b>
-  - [详情](./content/basic/js.md)
-  </details>
-  
-<b><details><summary>JS</summary></b>
-  - [详情](./content/basic/js.md)
-  </details>
+- 🌈 [CSS](./CSS/css.md)
+  - [盒模型](./CSS/盒模型.md)  
+  - [BFC](./CSS/BFC.md)

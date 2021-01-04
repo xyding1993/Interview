@@ -1,6 +1,6 @@
 # BFC
 
->   BFC：Block Formatting Context（块级格式化上下文）
+>   BFC：Block Formatting Context（块级格式化上下文）, 它是一个独立的渲染区域，只有Block-level box参与， 它规定了内部的Block-level Box如何布局，并且与这个区域外部毫不相干
 >
 >   在解释什么什么是 BFC 之前，我们需要先知道 Box、Formatting Context 的概念
 
@@ -16,7 +16,9 @@ Box 是 CSS 布局的对象和基本单位，直观来说，一个页面有很�
 
 ## Formatting Context
 
-Formatting Context 是 W3C CSS2.1 规范中的一个概念。他是页面的一块渲染区域，并且有一套渲染规则，它决定了其子元素如何定位，以及和其他元素的关系和相互作用。最常见的 Formatting Context 有 **Block formatting context** 和 **Inline formatting context**
+Formatting Context 是 W3C CSS2.1 规范中的一个概念。他是页面的一块渲染区域，并且有一套渲染规则，它决定了其子元素如何定位，以及和其他元素的关系和相互作用。  
+最常见的Formatting context有**Block formatting context**(简称BFC)和**Inline formatting context**(简称IFC)。  
+CSS2.1 中只有BFC和IFC, CSS3中还增加了GFC和FFC
 
 ## BFC 布局规则
 
@@ -41,6 +43,7 @@ Formatting Context 是 W3C CSS2.1 规范中的一个概念。他是页面的一�
 *   `column-span: all`
 
 ## BFC的使用场景（作用）
-1.  BFC垂直方向边距重叠的问题
-2.  自适应两栏布局
-3.  清除浮动
+1. BFC垂直方向边距重叠的问题
+2. 自适应两栏布局
+3. 清除内部浮动
+4. 高度塌陷
